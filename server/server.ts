@@ -20,7 +20,7 @@ import * as express from 'express';
 import * as url from 'url';
 
 //Constants
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(process.env.PORT || 9000);
 const FILES_PATH = path.join(__dirname, '../files');
 const SPEED_TICK_TIME = 750;    //ms
 
