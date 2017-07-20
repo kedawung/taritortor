@@ -21,7 +21,7 @@ var Filter_1 = require("./Filter/Filter");
 var express = require("express");
 var url = require("url");
 //Constants
-var PORT = Number(process.env.PORT || 3000);
+var PORT = Number(process.env.PORT || 9000);
 var FILES_PATH = path.join(__dirname, '../files');
 var SPEED_TICK_TIME = 750; //ms
 //Init
